@@ -10,11 +10,13 @@ victor3D.config(['$routeProvider','$stateProvider',function($routeProvider,$stat
         .otherwise({
             redirectTo: '/'
         });
-    //$stateProvider
-    //    .state('',{
-    //
-    //    })
-    //    .state('',{
-    //
-    //    })
+    $stateProvider
+        .state('demo',{
+            url: '/demo',
+            templateUrl: 'module/demo/demo.html',
+            controller:"demoCtrl"
+        })
+        //.state('',{
+        //
+        //})
 }]);

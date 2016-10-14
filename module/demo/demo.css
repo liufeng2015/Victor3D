@@ -1,0 +1,22 @@
+.demo_container{
+    width: 100%;
+    height: 100%;
+    /*background-color: orange;*/
+}
+.demo_svg{
+    width: 100%;
+    height: 100%;
+    background: yellow;
+}
+.demo_circle{
+    fill:orange;
+    stroke:red;
+    stroke-width: 1px;
+}
+.demo_rect{
+    fill: red;
+    stroke: purple;
+    stroke-width: 2px;
+    width: 40px;
+    height: 100px;
+}
