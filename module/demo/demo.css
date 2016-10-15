@@ -15,8 +15,29 @@
 }
 .demo_rect{
     fill: red;
-    stroke: purple;
-    stroke-width: 2px;
-    width: 40px;
-    height: 100px;
+    /*stroke: purple;*/
+    /*stroke-width: 2px;*/
+    /*width: 40px;*/
+    /*height: 100px;*/
+}
+/*.demo_axis{*/
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*font-size: 12px;*/
+    /*!*stroke-width: 1px;*!*/
+/*}*/
+.axis path,
+.axis line{
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.demo_path{
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
 }
