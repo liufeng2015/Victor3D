@@ -1,7 +1,7 @@
 <div ng-controller="HomeCtrl">
     <div class="home_container">
         <ul class="home_ul">
-            <li class="home_li"><a class="home_a" ui-sref="demo" ><span>你好</span><div class="home_img glyphicon glyphicon-hand-right"></div></a></li>
+            <li class="home_li" ng-repeat="chart in chartList"><a class="home_a" ui-sref="{{chart.url}}"  ng-bind="chart.name"></a></li>
         </ul>
     </div>
     <div class="home_table">

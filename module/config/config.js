@@ -11,10 +11,25 @@ victor3D.config(['$routeProvider','$stateProvider',function($routeProvider,$stat
             redirectTo: '/'
         });
     $stateProvider
-        .state('demo',{
-            url: '/demo',
-            templateUrl: 'module/demo/demo.html',
-            controller:"demoCtrl"
+        .state('bar',{
+            url: '/bar',
+            template: '<div class="chart_container"></div>',
+            controller:"barCtrl"
+        })
+        .state('excel',{
+            url: '/excel',
+            template: '<div class="chart_container"></div>',
+            controller:"excelCtrl"
+        })
+        .state('pie',{
+            url: '/pie',
+            template: '<div class="chart_container"></div>',
+            controller:"pieCtrl"
+        })
+        .state('map',{
+            url: '/map',
+            template: '<div class="chart_container"></div>',
+            controller:"mapCtrl"
         })
         //.state('',{
         //
